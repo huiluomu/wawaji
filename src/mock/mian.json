@@ -1,0 +1,167 @@
+{
+    "seller":[
+
+            {
+              "subscribe": 1,
+              "openid": "o7Lp5t6n59DeX3U0C7Kric9qEx-Q",
+              "nickname": "方倍",
+              "sex": 1,
+              "language": "zh_CN",
+              "city": "深圳",
+              "province": "广东",
+              "country": "中国",
+              "headimgurl": "http://wx.qlogo.cn/mmopen/Kkv3HV30gbEZmoo1rTrP4UjRRqzsibUjT9JClPJy3gzo0NkEqzQ9yTSJzErnsRqoLIct5NdLJgcDMicTEBiaibzLn34JLwficVvl6/0",
+              "subscribe_time": 1389684286
+          }
+        ],
+
+      "goods":[
+        {
+
+          "type":0,
+          "imgs":"../../static/images/game_13.png",
+          "img":"../../static/images/89356511572109873.png",
+          "weiPeisong":"已经配送",
+          "wawaName":"Q弹舞后miss兔本兽正踏着祥云来Q弹舞后miss",
+          "wawaTime":"2017-11-14 16:40:57",
+          "fahuo":"已发货",
+          "foods":[
+            {
+              "name": "红枣山药粥套餐",
+              "price": 29,
+              "oldPrice": 36,
+              "description": "红枣山药糙米粥,素材包,爽口莴笋丝,四川泡菜或八宝酱菜,配菜可备注",
+              "sellCount": 17
+            }
+          ]
+
+        },
+        {
+
+          "type":1,
+          "imgs":"../../static/images/game_13.png",
+          "img":"../../static/images/89356511572109873.png",
+          "weiPeisong":"没有配送",
+          "wawaName":"Q弹舞后miss兔本兽正踏着祥云来Q弹舞后miss",
+          "wawaTime":"2017-11-14 16:40:57",
+          "fahuo":"申请发货",
+          "foods":[
+            {
+              "name": "红枣山药粥套餐",
+              "price": 29,
+              "oldPrice": 36,
+              "description": "红枣山药糙米粥,素材包,爽口莴笋丝,四川泡菜或八宝酱菜,配菜可备注",
+              "sellCount": 17
+            }
+          ]
+
+        },
+        {
+
+          "type":0,
+          "imgs":"../../static/images/game_13.png",
+          "img":"../../static/images/89356511572109873.png",
+          "weiPeisong":"已经配送",
+          "wawaName":"Q弹舞后miss兔本兽正踏着祥云来Q弹舞后miss",
+          "wawaTime":"2017-11-14 16:40:57",
+          "fahuo":"已发货",
+          "foods":[
+            {
+              "name": "红枣山药粥套餐",
+              "price": 29,
+              "oldPrice": 36,
+              "description": "红枣山药糙米粥,素材包,爽口莴笋丝,四川泡菜或八宝酱菜,配菜可备注",
+              "sellCount": 17
+            }
+          ]
+
+        },
+        {
+
+          "type":1,
+          "imgs":"../../static/images/game_13.png",
+          "img":"../../static/images/89356511572109873.png",
+          "weiPeisong":"没有配送",
+          "wawaName":"Q弹舞后miss兔本兽正踏着祥云来Q弹舞后miss",
+          "wawaTime":"2017-11-14 16:40:57",
+          "fahuo":"申请发货",
+          "foods":[
+            {
+              "name": "红枣山药粥套餐",
+              "price": 29,
+              "oldPrice": 36,
+              "description": "红枣山药糙米粥,素材包,爽口莴笋丝,四川泡菜或八宝酱菜,配菜可备注",
+              "sellCount": 17
+            }
+          ]
+
+        },
+        {
+
+          "type":1,
+          "imgs":"../../static/images/game_13.png",
+          "img":"../../static/images/89356511572109873.png",
+          "weiPeisong":"没有配送",
+          "wawaName":"Q弹舞后miss兔本兽正踏着祥云来Q弹舞后miss",
+          "wawaTime":"2017-11-14 16:40:57",
+          "fahuo":"申请发货",
+          "foods":[
+            {
+              "name": "红枣山药粥套餐",
+              "price": 29,
+              "oldPrice": 36,
+              "description": "红枣山药糙米粥,素材包,爽口莴笋丝,四川泡菜或八宝酱菜,配菜可备注",
+              "sellCount": 17
+            }
+          ]
+
+        },
+        {
+
+          "type":1,
+          "imgs":"../../static/images/game_13.png",
+          "weiPeisong":"没有配送",
+          "wawaName":"Q弹舞后miss兔本兽正踏着祥云来Q弹舞后miss",
+          "wawaTime":"2017-11-14 16:40:57",
+          "fahuo":"申请发货",
+          "img":"../../static/images/89356511572109873.png",
+          "foods":[
+            {
+              "name": "红枣山药粥套餐",
+              "price": 29,
+              "oldPrice": 36,
+              "description": "红枣山药糙米粥,素材包,爽口莴笋丝,四川泡菜或八宝酱菜,配菜可备注",
+              "sellCount": 17
+            }
+          ]
+
+        },
+        {
+
+          "type":1,
+          "imgs":"../../static/images/game_13.png",
+          "img":"../../static/images/89356511572109873.png",
+          "weiPeisong":"没有配送",
+          "wawaName":"Q弹舞后miss兔本兽正踏着祥云来Q弹舞后miss",
+          "wawaTime":"2017-11-14 16:40:57",
+          "fahuo":"申请发货",
+          "foods":[
+            {
+              "name": "红枣山药粥套餐",
+              "price": 29,
+              "oldPrice": 36,
+              "description": "红枣山药糙米粥,素材包,爽口莴笋丝,四川泡菜或八宝酱菜,配菜可备注",
+              "sellCount": 17
+            }
+          ]
+
+        }
+
+      ]
+    }
+
+
+
+
+
+
