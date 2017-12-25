@@ -19,6 +19,7 @@ var app = express()
 const data = require('../src/mock/mian.json')
 const seller = data.seller
 const goods = data.goods
+const items = data.items
 
 // 路由器
 const router = express.Router()
@@ -34,6 +35,12 @@ router.get('/goods', function(req,res){
   res.send({
     code: 0,
     data: goods
+  })
+})
+router.get('/items', function(req,res){
+  res.send({
+    code: 0,
+    data: items
   })
 })
 //启动路由

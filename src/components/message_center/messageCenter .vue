@@ -18,7 +18,7 @@
         <!-- 显示数据 -->
         <div class="content">
           <ul class="clearfix">
-            <li v-for="item in message">
+            <li v-for="(item,i) in message" :key="i">
               <div class="content_left"></div>
               <div class="content_middle">
                 <p class="content_one">{{item.title}}</p>

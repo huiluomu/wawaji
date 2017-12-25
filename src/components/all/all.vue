@@ -1,7 +1,7 @@
 <template>
   <div class="all-geng" ref="all">
      <ul class="s-list">
-       <li class="s-l-box" v-for="(item, index) in list.roomItem">
+       <li class="s-l-box" v-for="(item,index) in list.roomItem" :key="index">
          <a :href="'detail.html?rid='+item.roomId">
            <div class="s-imgBox">
              <div class="img-boxs">

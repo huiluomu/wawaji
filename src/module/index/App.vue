@@ -26,8 +26,14 @@
           <div class="tab-item bg-right">
             <router-link to="/sale">特价</router-link>
           </div>
-          <div class="tab-item paih">
+      
+           <!-- <router-link to="/Billboard">
+              <div class="tab-item paih">
             大神榜
+          </div>
+        </router-link> -->
+            <div class="tab-item paih">
+         <router-link to="/Billboard">大神榜</router-link>
           </div>
         </div>
         <keep-alive>

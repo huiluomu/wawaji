@@ -109,7 +109,7 @@
     <div class="mask"></div>
     <div class="icon"></div>
     <div class="upornot-cancel" id="upornot-cancel">放弃</div>
-    <div class="upornot-confirm" id="upornot-confirm">
+    <div class="upornot-confirm" id="upornot-confirm" @click="getJon">
       开始游戏(<em id="upornot-count-down">10</em>s)
     </div>
   </div>
@@ -148,11 +148,58 @@
     <div class="failure"></div>
     <div class="back" id="back">返回娃娃机(<em id="back-count-down">10</em>s)</div>
   </div>
+  
 </div>
+<script src="https://unpkg.com/vue"></script>
 <script src="../../../static/js/jquery-1.11.3.min.js"></script>
 <script src="../../../static/js/jZego-1.0.0.js"></script>
 <script type="text/javascript" src="../../../static/js/assets/manifest.06ea5416e403300b60e7.js"></script>
 <script type="text/javascript" src="../../../static/js/assets/common.847aff05fd3f845755e9.js"></script>
 <script type="text/javascript" src="../../../static/js/assets/wawaji/index.2fec2db5b661c3c06b6e.js"></script>
+<script src="../../../static/js/axios.min.js"></script>
+<script>
+var app = new Vue({   
+    data(){
+       return{
+        registerUrl: "/api/index/Room/play",
+      //   newUserInfo: {
+      //       userName:'n',
+      //       phone:'13',
+      //       email:'12',
+      //       emailPwd:'22',
+      //       kindleEmail:'asd'
+      //  }
+      // roomid:id
+      
+       
+
+        }
+    },
+    created(){
+      this.register()
+    },
+    
+    methods: {
+        register() {
+          // alert("大傻逼")
+            
+              axios.post(this.registerUrl,this.roomid,{
+                      headers:{
+                            // 'Content-Type': 'application/x-www-form-urlencoded'
+                            'Content-Type':'application/x-www-form-urlencoded'
+                      }
+                  }).then(function(res) {
+                    console.log(res);
+                  }).catch(function (error) {
+                    console.log(error+"错了错了错了错了错了错了错了错了错了错了错了错了错了错了");
+                  });
+ 
+           
+        }
+    }
+})
+</script>
+
 </body>
 </html>
+

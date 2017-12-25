@@ -21,6 +21,9 @@ import messageCenter from '../../../components/message_center/messageCenter .vue
 
 import setting from '../../../components/setting/setting.vue'
 
+import Billboard from '../../../components/Billboard/Billboard.vue'
+// import Billboard from '../../../components/setting/Billboard.vue'
+
 Vue.use(VueRouter);
 Vue.use(ElementUI);
 Vue.use(VueJsonp)
@@ -35,6 +38,10 @@ export default new VueRouter({
     {
       path:'/all',
       component: all
+    },
+    {
+      path:'/Billboard',
+      component: Billboard
     },
     {
       path:'/sale',

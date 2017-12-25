@@ -48,7 +48,7 @@
       <div class="mask"></div>
       <div class="icon"></div>
       <div class="upornot-cancel" id="upornot-cancel">放弃</div>
-      <div class="upornot-confirm" id="upornot-confirm">
+      <div class="upornot-confirm" id="upornot-confirm" @click="getJon">
         开始游戏(<em id="upornot-count-down">10</em>s)
       </div>
     </div>
@@ -93,6 +93,26 @@
 <script>
 
   export default {
+    data(){
+      return{
+                 
+      }
+    },
+    created(){
+      // this.getJon()
+    },
+    methods:{
+      getJon(){
+        let xhr = new XMLHttpRequest()
+        xhr.onreadystatechange = function(){
+          if(xhr.readyState===4){
+            if(xhr.status===200){
+             alert("相应完成")
+            }
+          }
+        }
+      }
+    }
   }
 </script>
 
